@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Big+Shoulders+Display:wght@300&family=Lexend+Mega&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Lexend Mega', sans-serif;
+    color: white;
+}
+
+.landing {
+    min-height: 100vh;
+    background: url(landing\ page.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0rem 5rem;
+}
+.contact {
+    min-height: 100vh;
+    background: url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0rem 5rem;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    color: white;
+
+
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links li {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.nav-links a {
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: 'Abel', sans-serif;
+    color: #6495ed;
+
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.slider {
+    background: rgb(23, 50, 100);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    
+}
+
+.intro-text {
+color: rgb(214, 230, 245);
+font-family: 'Abel', sans-serif;
+font-size: 2rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+
+}
+
+/* Contact Section Styles */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 800%;
+    max-width: 800px;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    color: white;
+    margin-right: 0px;
+    text-decoration: none;
+  }
+  
+  .contact-details {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    color: white;
+    text-transform: none;
+    padding-top: 50px;
+    text-decoration: none;
+  }
+
+  #profile-link{
+      margin-right: 22px;
+  }
+
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
